@@ -1,6 +1,5 @@
-import { Box, Link, useMediaQuery, IconButton } from "@mui/material";
-import logo from "./assets/logo.png";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Box, Link, useMediaQuery } from "@mui/material";
 
 export default function Header() {
   const tablet = useMediaQuery("(max-width: 1024px)");
@@ -35,7 +34,7 @@ export default function Header() {
         >
           <Link href="#">
             <img
-              src={logo}
+              src="https://github.com/Edvindjulic/Retro-Cap/assets/117123951/05a4d289-5e74-49cc-ab5d-86f4257a0c15"
               alt="logo"
               style={{ height: "80px", padding: "5px 0" }}
             />
@@ -43,11 +42,13 @@ export default function Header() {
         </Box>
 
         {matches ? (
-            <MenuIcon sx={{
+          <MenuIcon
+            sx={{
               color: "white",
               fontSize: "3rem",
               marginRight: "1rem",
-            }} />
+            }}
+          />
         ) : (
           <Box
             sx={{
