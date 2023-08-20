@@ -21,7 +21,6 @@ function App() {
     >
       <Header />
       <Hero />
-      {/* <Box sx={{ width: "940px", background: "red", height: "2600px" }}></Box> */}
       <ProductOne />
       <ProductTwo />
       <Call2Action />
