@@ -1,12 +1,11 @@
 import { Box, Typography, useMediaQuery } from "@mui/material";
-import heroImage from "./assets/hero.jpg";
 
 export default function Hero() {
   const matches = useMediaQuery("(max-width: 640px)");
   return (
     <Box
       sx={{
-        backgroundImage: `url(${heroImage})`,
+        backgroundImage: `url(https://github.com/Edvindjulic/Retro-Cap/assets/117123951/00aef1db-0b57-457d-8d4c-63e5d2afabe9)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
